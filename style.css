@@ -1,19 +1,81 @@
-* {
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,500&display=swap');
+
+:root {
+  ---Dark-02, #424247;
+}
+/* reset and common code starts here */
+
+*{
   box-sizing: border-box;
-  padding: 0;
   margin: 0;
-  list-style: none;
+  padding: 0;
+  list-style-type: none;
   text-decoration: none;
   outline: none;
-}
 
-html {
-  font-family: roboto;
 }
-
+html{
+  background-color: #fafafa;
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+  font-family: 'Roboto', sans-serif;
+}
 body {
   background-color: #fff;
   width: 100rem;
   max-width: 100%;
+  margin: auto;
+  box-shadow: 0.1rem 0.1rem #c4c4c4 -0.1rem 0 rem 0.1rem #c4c4c4;
+}
+/* reset and common code ends here */
+
+/* header style starts here */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 2rem 1rem;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  min-height: 5vh;
+
 }
 
+.logo {
+  padding-right: 1.5rem;
+}
+h3 {
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.primary-color {
+  color: #FF5400;
+  font-weight: 700;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+.menu-icon {
+  display: inline-block;
+
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  font-size: 1.5rem;
+  
+}
+.nav__link {
+  color:#424247;
+}
+
+
+
+/*header style ends here */

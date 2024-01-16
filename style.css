@@ -13,11 +13,16 @@ body{
 }
 
     /* Navbar style starts here */
-.explore-section{
-  max-width: 1250px;
+  .navigaion {
+    background-color: #fff;
+    width: 80%;
+    
+  }
+
+ .explore-section {
+  max-width: 1200px;
   margin: 0 auto;
   display: flex;
-  
 }
 
 .logo-container {
@@ -35,6 +40,7 @@ h2 {
   font-weight: 800;
   font-size: 36px;
 }
+
 .primary-color {
   color: #FF5400;
   font-weight: 800;
@@ -61,3 +67,34 @@ h2 {
   font-size: 18px;
 }
 /* Navbar section style ends here */
+
+
+
+.main-img-container {
+  width: 1250px;
+  height: 500px;
+  position: relative;
+}
+ 
+.gradient {
+  width: 80%;
+  height: 100%;
+  /* background-color:#131318; */
+  border-radius: 16px;
+  /* background-image: linear-gradient(to right, #131318()); */
+  background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+  opacity: 0.2;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.main-img img {
+  width: 80%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 16px;
+}
+
+

@@ -194,36 +194,65 @@ p {
   border-radius: 16px;
   border: 1px solid rgba(251, 181, 99, 0.20);
   background: rgba(251, 181, 99, 0.05);
-
-
-
- }
+}
 
  /* hotel,maps,address style */
+ .text-font{
+  font-size: 24px;
+ }
  .addrees-container {
   display: flex;
   text-align: center;
   margin-left: 135px;
   margin-right: 135px;
   margin-top: 100px;
+  gap: 20px;
  }
  .hotel-content {
   border-radius: 16px;
+  border: 1px solid rgba(251, 181, 99, 0.20);
+  background: rgba(251, 181, 99, 0.05);
+  height: 300px;
+  padding: 10px;
+  width: 573px;
+height: 284px;
+ }
+.map-content {
+  border-radius: 16px;
   border: 1px solid rgba(41, 206, 246, 0.20);
   background: rgba(41, 206, 246, 0.05);
-  font-size: 24px;
-
-
-
- }
-
- .price-container {
+  padding: 10px;
+  width: 573px;
+height: 284px;
+  
+}
+.price-container {
   align-items: center;
   text-align: center;
-  margin-left: 135px;
-  margin-right: 135px;
   margin-top: 24px;
- }
- .discount {
+  border-radius: 16px;
+  border: 1px solid rgba(233, 68, 68, 0.20);
+  background: rgba(233, 68, 68, 0.05);
+  width: 573px;
+  height: 284px;
+  margin-left: 25%;
+  padding: 20px;
 
+}
+
+ .discount {
+  text-align: center;
+  align-items: center;
+  margin-top: 50px;
+  margin-left: 25%;
+  width: 500px;
+  padding: 15px;
+  
+
+
+ }
+
+ /* footer section style */
+ .footer-containter {
+  display: flex;
  }

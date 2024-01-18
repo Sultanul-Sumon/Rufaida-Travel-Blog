@@ -1,9 +1,26 @@
-@media screen and (min-width:667px) and (max-width: 992px) {
-  header {
-    /* flex-direction: column; */
+/* @media screen and (min-width:667px) and (max-width: 992px) {
+  .explore-section {
+    flex-direction: column; 
 
   }
+  
+.logo-container{
+  flex-direction: column;
+}
   .menu-container {
     flex-direction: column;
   }
 }
+@media screen and (max-width: 667px) {
+  .explore-section {
+    flex-direction: column; 
+
+  }
+  
+.logo-container{
+  flex-direction: column;
+}
+  .menu-container {
+    flex-direction: column;
+  }
+} */

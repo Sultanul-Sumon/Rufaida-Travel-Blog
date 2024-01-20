@@ -229,14 +229,26 @@ a:hover {
 /* Popular Tour travel style ends here */
 
 /* card-images style starts here */
-  .card-container {
+  .card-container-one {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
-    gap: 24px;
+    align-items: center;
+    gap: 20px;
     margin-top: 200px;
+    max-width: 100%;
+  }
+  .card-container-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 100%;
   }
 
+  .card-container-three {
+    display: flex;
+  }
+  
   .card img {
     width: 100%;
     height: auto;
@@ -248,7 +260,7 @@ a:hover {
     height: auto;
   }
 
-.card-content h3 {
+.card-title h3 {
   position:absolute;
   top: 50%;
   left: 50%;
@@ -358,6 +370,7 @@ a:hover {
     height: 422px;
     text-align: center;
     padding-top: 50px;
+    box-shadow: 5px 5px 5px rgb(71, 54, 54);
   }
   .newsletter-form input{
     height: 50px;
